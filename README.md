@@ -15,7 +15,7 @@
 
 ## About
 
-Natours is a working landing page developed during [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) course.
+Natours is a landing page developed during [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) course.
 
 Natours is a website focused on nature tours throughout the world with multiple options of duration, number of guides, lodgings and difficulty.
 
