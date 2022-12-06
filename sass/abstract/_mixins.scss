@@ -1,0 +1,54 @@
+@mixin row {
+    &__row {
+        display: flex;
+        justify-content: center;
+        max-width: 114rem;
+        margin: 0 auto;
+
+        @include respond(tab-port) {
+            flex-wrap: wrap;
+            max-width: 50rem;
+            padding: 3rem;
+        }
+
+        & > * {
+            flex: 1;
+
+            &:not(:last-child) {
+                margin-right: $gutter-horizontal;
+
+                @include respond(tab-port) {
+                    margin-bottom: $gutter-vertical-small;
+                    margin-right: 0;
+                }
+            }
+
+            @include respond(tab-port) {
+                flex: 0 0 100%;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: $gutter-vertical;
+
+            @include respond(tab-port) {
+                margin-bottom: $gutter-vertical-small;
+            }
+        }
+    }
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 37.5em) { @content };
+    }
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 56.25em) { @content };
+    }
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 75em) { @content };
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 112.5em) { @content };
+    }
+}

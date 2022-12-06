@@ -1,0 +1,6 @@
+.tour-info {
+    display: flex;
+    justify-content: center;
+
+    @include row;
+}
