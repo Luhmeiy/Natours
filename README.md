@@ -24,14 +24,7 @@ Designed by: [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/).
 ## Screenshots
 
 ### Desktop
-![hero](./img/screenshots/hero.png)
-![about](./img/screenshots/about.png)
-![features](./img/screenshots/features.png)
-![tours](./img/screenshots/tours.png)
-![tours-popup](./img/screenshots/tours-popup.png)
-![stories](./img/screenshots/stories.png)
-![book](./img/screenshots/book.png)
-![footer](./img/screenshots/footer.png)
+![desktop](./img/screenshots/desktop.png)
 
 ### Tablet
 ![tablet](./img/screenshots/tablet.png)
